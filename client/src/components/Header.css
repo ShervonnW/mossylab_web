@@ -1,0 +1,99 @@
+/* Header.css */
+.header {
+    background-color: rgba(255, 255, 255, 0.8); /* 透明白色背景 */
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    position: fixed; /* 固定在页面顶部 */
+    width: 100%;
+    top: 0; /* 确保在页面顶部 */
+    z-index: 1000; /* 保证在其他内容之上 */
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 60px;
+    margin-left: 10px;
+  }
+  
+  .logo-text {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3rem;
+    color: #000000;
+  }
+  
+  .nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    position: relative;
+    padding: 10px 0;
+  }
+  
+  .nav-link:hover {
+    color: #4CAF50;
+  }
+  
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #4CAF50;
+    transition: width 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .icon-link i {
+    margin-right: 5px;
+  }
+  
+  .icon-link:hover {
+    color: #4CAF50;
+  }
+  
