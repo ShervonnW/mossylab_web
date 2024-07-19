@@ -1,11 +1,12 @@
 import React from 'react';
-import Header from '../components/Header';
-import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
-import ServicesSection from '../components/ServicesSection';
-import CallToAction from '../components/CallToAction';
-import Footer from '../components/Footer';
-import '../components/HeroSection.css';
+import Header from '../homepage_components/Header';
+import HeroSection from '../homepage_components/HeroSection';
+import AboutSection from '../homepage_components/AboutSection';
+import ServicesSection from '../homepage_components/ServicesSection';
+import CallToAction from '../homepage_components/CallToAction';
+import GallerySection from '../homepage_components/GallerySection';
+import Footer from '../homepage_components/Footer';
+import '../homepage_components/HeroSection.css';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
         <AboutSection />
         <ServicesSection />
         <CallToAction />
+        <GallerySection />        
       </main>
       <Footer />
     </div>

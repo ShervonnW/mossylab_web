@@ -1,0 +1,37 @@
+/* GallerySection.css */
+.gallery-section {
+    background-color: rgba(24, 103, 33, 0.8);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+  }
+  
+  .gallery-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .gallery-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .gallery-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .gallery-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

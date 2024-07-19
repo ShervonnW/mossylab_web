@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import ProjectCard from '../components/ProjectCard';
+import Header from '../homepage_components/Header';
+import Footer from '../homepage_components/Footer';
+import ProjectCard from '../homepage_components/ProjectCard';
 
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);

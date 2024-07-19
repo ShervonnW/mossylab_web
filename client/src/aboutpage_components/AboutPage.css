@@ -1,0 +1,90 @@
+/* AboutPage.css */
+.about-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    padding-top: 100px; /* Add this line to add padding at the top */
+    color: #333;
+  }
+  
+  .about-intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .logo-image {
+    height: 60px;
+    margin-left: 10px;
+  }
+  
+  .about-intro h1 {
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-intro p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vision-mission {
+    background-color: rgba(162, 237, 182, 0.8);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .vision, .mission {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .vision h2, .mission h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .vision p, .mission p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .team {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #777;
+  }
+  

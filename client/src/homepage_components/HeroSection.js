@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className='hero-box'>
             <div className="hero-content">
                 <h1>Experience Nature's Tranquility Indoors</h1>
-                <p>Custom Moss Terrariums for Relaxation and Well-Being</p>
+                <p>Mossy Lab offers creative and relaxing DIY workshops for nature enthusiasts and craft lovers.</p>
                 <button className="btn btn-primary">Join us for a Workshop!</button>
             </div>
         </div>
