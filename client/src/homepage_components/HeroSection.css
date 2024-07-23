@@ -1,6 +1,6 @@
 /* HeroSection.css */
 .hero {
-    background-image: url('../image/IMG_3879.jpg');
+    background-image: url('IMG_3879.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;

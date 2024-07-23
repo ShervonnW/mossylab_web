@@ -1,0 +1,78 @@
+.gallery-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+.gallery-h1{
+    font-family: "Lucida Handwriting";
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+  
+  .product-filters {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    box-sizing: border-box;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 0.875rem;
+    margin: 5px 0;
+  }
+  
+  .sold-out {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+  

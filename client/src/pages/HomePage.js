@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../homepage_components/Header';
 import HeroSection from '../homepage_components/HeroSection';
 import AboutSection from '../homepage_components/AboutSection';
-import ServicesSection from '../homepage_components/ServicesSection';
+import EventsSection from '../homepage_components/EventsSection';
 import CallToAction from '../homepage_components/CallToAction';
 import GallerySection from '../homepage_components/GallerySection';
 import Footer from '../homepage_components/Footer';
@@ -15,7 +15,7 @@ const HomePage = () => {
       <main className="homepage">
         <HeroSection />
         <AboutSection />
-        <ServicesSection />
+        <EventsSection />
         <CallToAction />
         <GallerySection />        
       </main>

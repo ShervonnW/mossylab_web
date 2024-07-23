@@ -2,10 +2,6 @@ import React from 'react';
 import Header from '../homepage_components/Header';
 import Footer from '../homepage_components/Footer';
 import '../aboutpage_components/AboutPage.css';
-import han from '../image/han.jpg';
-import xy from '../image/xy.jpg';
-import zt from '../image/zt.jpg';
-import jy from '../image/jy.jpg';
 
 const AboutPage = () => {
   return (
@@ -32,22 +28,22 @@ const AboutPage = () => {
           <h2>Meet Our Team</h2>
           <div className="team-members">
             <div className="team-member">
-              <img src={han} alt="Team Member 1" />
+              <img src='../image/han.jpg' alt="Team Member 1" />
               <h3>Han Xu</h3>
               <p>Founder & CEO</p>
             </div>
             <div className="team-member">
-              <img src={xy} alt="Team Member 2" />
+              <img src='../image/xy.jpg' alt="Team Member 2" />
               <h3>Xinyi Liu</h3>
               <p>Founder & CEO</p>
             </div>
             <div className="team-member">
-              <img src={zt} alt="Team Member 3" />
+              <img src='../image/zt.jpg' alt="Team Member 3" />
               <h3>Ming Zhu</h3>
               <p>Founder & CFO</p>
             </div>
             <div className="team-member">
-              <img src={jy} alt="Team Member 3" />
+              <img src='../image/jy.jpg' alt="Team Member 3" />
               <h3>Bryan Wang</h3>
               <p>Founder & CTO</p>
             </div>

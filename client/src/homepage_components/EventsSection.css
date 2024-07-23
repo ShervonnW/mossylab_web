@@ -1,0 +1,37 @@
+.events-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.events-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  text-align: left;
+}
+
+.event-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 1rem;
+  color: #333;
+}
