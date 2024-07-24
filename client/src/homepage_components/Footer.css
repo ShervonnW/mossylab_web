@@ -18,14 +18,23 @@
   flex: 1;
   margin: 10px; /* Reduce margin */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-section h2, .footer-section h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 5px; /* Reduce margin */
   font-size: 1.25rem; /* Reduce font size */
 }
 
 .footer-section p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 5px; /* Reduce margin */
   font-size: 0.875rem; /* Reduce font size */
 }
@@ -48,9 +57,14 @@
   align-items: center;
   border: none;
   background-color: transparent; /* Remove background color */
+  box-shadow: none; /* Remove any box-shadow */
+  border: none; /* Remove any border */
 }
 
 .footer-section.newsletter input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 8px; /* Reduce padding */
   border: none;
   border-radius: 5px;
