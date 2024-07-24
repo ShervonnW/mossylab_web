@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import GalleryPage from './pages/GalleryPage';
 import TerrariumsPage from './pages/TerrariumsPage';
 import ContactPage from './pages/ContactPage';
+import './responsive.css';
 const App = () => {
   return (
     <Router>

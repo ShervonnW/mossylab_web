@@ -1,0 +1,50 @@
+/* responsive.css */
+
+@media (max-width: 768px) {
+    .hero-content {
+      padding: 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 5px 10px;
+      font-size: 0.875rem;
+    }
+  
+    .product-grid {
+      grid-template-columns: 1fr; /* 在小屏幕上每行一个商品 */
+      gap: 20px; /* 调整间距 */
+    }
+  
+    .product-card {
+      width: 100%; /* 全宽 */
+      height: auto; /* 自动高度 */
+      margin: 0 auto; /* 居中 */
+    }
+  
+    .gallery-h1 {
+      font-size: 2rem;
+    }
+  
+    .product-filters {
+      flex-direction: column; /* 垂直排列 */
+      gap: 10px; /* 调整间距 */
+    }
+  
+    .footer-section {
+      flex: 1 1 100%;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
