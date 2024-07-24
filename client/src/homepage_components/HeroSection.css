@@ -2,7 +2,7 @@
   background-image: url('IMG_3879.jpg');
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: flex;
   display: flex;
   align-items: center;
   justify-content: center;
