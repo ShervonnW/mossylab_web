@@ -25,4 +25,21 @@
     background-color: white;
     color: #4CAF50;
   }
-  
+
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+  .btn-primary {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: rgb(255, 255, 255);
+      text-decoration: none; /* 取消下划线 */
+  }
+
+  .no-underline {
+      text-decoration: none;
+  }

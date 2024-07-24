@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './CallToAction.css';
 
 const CallToAction = () => {
@@ -6,7 +7,7 @@ const CallToAction = () => {
     <section className="cta">
       <div className="cta-content">
         <h2>Ready to Create Your Own Moss Terrarium?</h2>
-        <button className="btn btn-primary">Get Started</button>
+        <Link to="/terrariums" className="btn btn-primary no-underline">Get Started</Link>
       </div>
     </section>
   );

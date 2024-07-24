@@ -46,6 +46,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: none;
+  background-color: transparent; /* Remove background color */
 }
 
 .footer-section.newsletter input {

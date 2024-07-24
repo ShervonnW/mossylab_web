@@ -1,53 +1,106 @@
-/* HeroSection.css */
 .hero {
-    background-image: url('IMG_3879.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-  }
-  
-  .hero-box{
-    background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
-    padding: 100px;
-    border-radius: 10px;
-    color: white;
-    width: 100%; /* 确保内容宽度与父容器一致 */
-    height: 100%; /* 确保内容高度与父容器一致 */
-    box-sizing: border-box; /* 确保padding包含在总高度和宽度内 */
-  }
-  
-  .hero-content {
-    padding: 150px;
-    border-radius: 10px;
-    color: white;
-  }
-  
+  background-image: url('IMG_3879.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.hero-box {
+  background: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+  padding: 100px;
+  border-radius: 10px;
+  color: white;
+  width: 100%; /* 确保内容宽度与父容器一致 */
+  height: 100%; /* 确保内容高度与父容器一致 */
+  box-sizing: border-box; /* 确保padding包含在总高度和宽度内 */
+}
+
+.hero-content {
+  padding: 150px;
+  border-radius: 10px;
+  color: white;
+}
+
+.hero h1 {
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+}
+
+/* 媒体查询 */
+@media (max-width: 1200px) {
   .hero h1 {
-    font-family: "Lucida Handwriting", cursive;
-    font-size: 3rem;
-    margin-bottom: 10px;
+      font-size: 2.5rem;
   }
-  
+
   .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+      font-size: 1.25rem;
   }
-  
-  .btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
+
+  .hero-content {
+      padding: 100px;
   }
-  
-  .btn-primary {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
+
+  .hero-box {
+      padding: 80px;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 2rem;
+  }
+
+  .hero p {
+      font-size: 1rem;
+  }
+
+  .hero-content {
+      padding: 50px;
+  }
+
+  .hero-box {
+      padding: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+      font-size: 1.5rem;
+  }
+
+  .hero p {
+      font-size: 0.875rem;
+  }
+
+  .hero-content {
+      padding: 20px;
+  }
+
+  .hero-box {
+      padding: 20px;
+  }
+}

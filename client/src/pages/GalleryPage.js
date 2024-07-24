@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../homepage_components/Header';
 import Footer from '../homepage_components/Footer';
 import '../gallerypage_components/GalleryPage.css';
@@ -13,6 +13,11 @@ const products = [
 ];
 
 const GalleryPage = () => {
+  // Add useEffect to scroll to the top of the page on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Header />
