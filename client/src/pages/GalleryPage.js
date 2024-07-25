@@ -13,7 +13,7 @@ const productsData = [
 ];
 
 const GalleryPage = () => {
-  const [products, setProducts] = useState(productsData);
+  const [products] = useState(productsData);
   const [currentPage, setCurrentPage] = useState(1);
   const [productsPerPage] = useState(9);
   const [sortType, setSortType] = useState('az');
