@@ -1,3 +1,4 @@
+/* TerrariumsPage.css */
 .terrariums-page {
     text-align: center;
     padding: 20px;
@@ -72,4 +73,47 @@
 .gifs-image{
     width: 42%;
     height: auto;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .terrariums-page h1 {
+        font-size: 2rem; /* 调整手机上的字体大小 */
+    }
+
+    .content-container {
+        flex-direction: column; /* 手机上垂直排列内容 */
+        gap: 20px; /* 调整手机上的间距 */
+    }
+
+    .text-box {
+        max-width: 100%; /* 手机上全宽度 */
+        padding: 10px; /* 调整手机上的内边距 */
+        margin-bottom: 20px; /* 增加底部间距 */
+    }
+
+    .text-box h2 {
+        font-size: 1.25rem; /* 调整手机上的字体大小 */
+    }
+
+    .text-box p {
+        font-size: 1rem; /* 调整手机上的字体大小 */
+    }
+
+    .image-container {
+        max-width: 100%; /* 手机上全宽度 */
+    }
+
+    .steps-image, .gifs-image {
+        width: 100%; /* 手机上全宽度 */
+    }
+
+    .gifs-image-container {
+        flex-direction: column; /* 手机上垂直排列内容 */
+    }
+
+    .gifs-image {
+        width: 80%; /* 调整手机上的宽度 */
+        margin-bottom: 20px; /* 增加底部间距 */
+    }
 }

@@ -16,6 +16,9 @@ const TerrariumsPage = () => {
       <main className="terrariums-page">
         <h1>How to DIY a Terrarium</h1>
         <div className="content-container">
+          <div className="image-container">
+            <img src={steps} alt="Steps to make a terrarium" className="steps-image" />
+          </div>
           <div className="text-box">
             <h2>Step-by-step Instructions </h2>
             <p>1. Choose a suitable container. Put approximately one inch of sand at the bottom of the container.</p>
@@ -26,9 +29,6 @@ const TerrariumsPage = () => {
             <div className="gifs-image-container">
                 <img src={gifs} alt="gifs" className="gifs-image" />
             </div>
-          </div>
-          <div className="image-container">
-            <img src={steps} alt="Steps to make a terrarium" className="steps-image" />
           </div>
         </div>
       </main>

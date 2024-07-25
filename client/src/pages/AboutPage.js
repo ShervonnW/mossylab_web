@@ -10,8 +10,7 @@ const AboutPage = () => {
       <main className="about-page">
         <section className="about-intro">
 
-          <h1>🌿 About Mossy Lab 🌿
-          </h1>
+          <h1>About Mossy Lab</h1>
           <p>Welcome to Mossy Lab, where nature meets creativity. Our mission is to bring the beauty and tranquility of nature into your home or office through custom moss terrariums. Our innovative workshops allow you to create your own moss landscapes, providing both a therapeutic and artistic experience.</p>
         </section>
         <section className="vision-mission">

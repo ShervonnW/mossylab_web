@@ -1,3 +1,4 @@
+/* GalleryPage.css */
 .gallery-page {
   text-align: center;
   padding: 20px;
@@ -40,6 +41,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 每行3个商品 */
   gap: 10px; /* 修改这里的值来减少距离 */
+  width: 100%;
+  justify-items: center; /* 确保项目在网格单元中居中 */
 }
 
 .product-card {
@@ -47,18 +50,19 @@
   border-radius: 10px;
   padding: 10px;
   text-align: center;
-  height: 400px; /* 固定高度 */
-  width: 300px; /* 固定宽度 */
+  height: 300px; /* 固定高度 */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px; /* 修改这里的值来减少卡片之间的间距 */
+  width: 90%; /* 确保卡片宽度 */
+  max-width: 300px; /* 确保最大宽度 */
 }
 
 .product-card img {
-  max-width: 100%;
-  max-height: 280px; /* 固定图片高度，确保图片在卡片内居中 */
-  object-fit: cover;
+  width: 100%; /* 确保图片宽度100% */
+  height: 200px; /* 固定图片高度 */
+  object-fit: cover; /* 保持图片比例，裁剪多余部分 */
   border-radius: 10px;
 }
 
@@ -96,4 +100,61 @@
 .pagination button:disabled {
   background-color: #ddd;
   cursor: not-allowed;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .gallery-h1 {
+    font-size: 2rem; /* 调整手机上的字体大小 */
+  }
+
+  .product-filters {
+    flex-direction: column;
+    gap: 10px; /* 调整手机上的间距 */
+  }
+
+  .product-filters label {
+    font-size: 1rem; /* 调整手机上的字体大小 */
+  }
+
+  .product-filters input, .product-filters select {
+    width: 45%; /* 调整手机上的宽度 */
+  }
+
+  .product-container {
+    justify-content: center; /* 确保容器在手机上居中 */
+    align-items: center;
+    width: 100%; /* 调整手机上的宽度 */
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* 每行1个商品 */
+    gap: 5px; /* 调整手机上的间距 */
+  }
+
+  .product-card {
+    height: auto; /* 移动设备上自动高度 */
+    width: 100%; /* 调整手机上的宽度 */
+  }
+
+  .product-card img {
+    max-height: 140px; /* 调整手机上的图片高度 */
+  }
+
+  .product-card h2 {
+    font-size: 1.2rem; /* 调整手机上的字体大小 */
+  }
+
+  .product-card p {
+    font-size: 1rem; /* 调整手机上的字体大小 */
+  }
+
+  .pagination {
+    flex-direction: column; /* 手机上分页按钮垂直排列 */
+    gap: 5px; /* 调整手机上的间距 */
+  }
+
+  .pagination button {
+    width: 10%; /* 调整手机上的按钮宽度 */
+  }
 }
