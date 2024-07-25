@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mossylab_web/static/css/main.9a7a00b5.css",
-    "main.js": "/mossylab_web/static/js/main.83ea4b98.js",
-    "static/js/453.419a5d54.chunk.js": "/mossylab_web/static/js/453.419a5d54.chunk.js",
-    "static/media/IMG_3879.jpg": "/mossylab_web/static/media/IMG_3879.d13bafa3938b978af78f.jpg",
-    "static/media/steps.jpg": "/mossylab_web/static/media/steps.cc7432e323487830b606.jpg",
-    "static/media/plant3.gif": "/mossylab_web/static/media/plant3.1b6e4ca7e3b039178c59.gif",
-    "index.html": "/mossylab_web/index.html",
-    "main.9a7a00b5.css.map": "/mossylab_web/static/css/main.9a7a00b5.css.map",
-    "main.83ea4b98.js.map": "/mossylab_web/static/js/main.83ea4b98.js.map",
-    "453.419a5d54.chunk.js.map": "/mossylab_web/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/static/css/main.a59c1bc4.css",
+    "main.js": "/static/js/main.055b5ea3.js",
+    "static/js/453.419a5d54.chunk.js": "/static/js/453.419a5d54.chunk.js",
+    "static/media/IMG_3879.jpg": "/static/media/IMG_3879.d13bafa3938b978af78f.jpg",
+    "static/media/steps.jpg": "/static/media/steps.cc7432e323487830b606.jpg",
+    "static/media/plant3.gif": "/static/media/plant3.1b6e4ca7e3b039178c59.gif",
+    "index.html": "/index.html",
+    "main.a59c1bc4.css.map": "/static/css/main.a59c1bc4.css.map",
+    "main.055b5ea3.js.map": "/static/js/main.055b5ea3.js.map",
+    "453.419a5d54.chunk.js.map": "/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a7a00b5.css",
-    "static/js/main.83ea4b98.js"
+    "static/css/main.a59c1bc4.css",
+    "static/js/main.055b5ea3.js"
   ]
 }
