@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; URL=/#/404">
+    <script type="text/javascript">
+      setTimeout(function() {
+        var path = window.location.pathname;
+        var hash = '#' + path;
+        var newPath = window.location.origin + '/' + hash;
+        window.location.replace(newPath);
+      }, 100);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
