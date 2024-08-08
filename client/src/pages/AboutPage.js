@@ -23,7 +23,7 @@ const AboutPage = () => {
             <p>We aim to cultivate a community that values emotional wellness and environmental sustainability. We offer innovative and personalized moss micro-landscape products and workshops to bring the calming and healing power of nature into every home and workspace, enhancing the quality of life for our customers.</p>
           </div>
         </section>
-        <section className="team">
+        {/* <section className="team">
           <h2>Meet Our Team</h2>
           <div className="team-members">
             <div className="team-member">
@@ -47,7 +47,7 @@ const AboutPage = () => {
               <p>Founder & CTO</p>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       <Footer />
     </div>
