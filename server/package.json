@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "client": "npm start --prefix client",
-    "server": "node server/app.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "start": "node server/app.js"
   },
   "engines": {
