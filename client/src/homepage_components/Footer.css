@@ -3,6 +3,7 @@
   color: white;
   padding: 10px 10px;
   text-align: center;
+  width: 100%;
 }
 
 .footer-container {
@@ -90,4 +91,16 @@
   font-family: 'Luckiest Guy', cursive;
   font-size: 2.5rem; /* Reduce font size */
   color: #ffffff;
+}
+
+/* 为了让内容部分的最小高度扩展到浏览器的高度 */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1; /* 占据剩余的空间 */
 }

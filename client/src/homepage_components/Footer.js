@@ -12,7 +12,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=61562319154475&mibextid=LQQJ4d" className="social-icon">
               <i className="fab fa-facebook"></i>
             </a>
-            <a href="https://www.instagram.com/mossy_lab?igsh=azZtNnY1dGJ2aXU5&utm_source=qr" className="social-icon">
+            <a href="https://www.instagram.com/mossylab_official?igsh=azZtNnY1dGJ2aXU5&utm_source=qr" className="social-icon">
               <i className="fab fa-instagram"></i>
             </a>
             <a href="https://www.tiktok.com/@mossylab?_t=8o3kQ6ZWqI3&_r=1" className="social-icon">
