@@ -5,7 +5,7 @@
     "client": "npm start --prefix client",
     "server": "node server/app.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "node app.js"
+    "start": "node server/app.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
