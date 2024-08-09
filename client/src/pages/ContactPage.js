@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Header from '../homepage_components/Header';
 import Footer from '../homepage_components/Footer';
 import '../contactpage_components/ContactPage.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const ContactPage = () => {
 
@@ -35,7 +38,17 @@ const ContactPage = () => {
       });
 
       if (response.ok) {
-        setFormStatus('Message sent successfully!');
+        toast.success('Message sent successfully, we will get back to you as soon as possible! Thank you for your support!', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+          });
+        //setFormStatus('Message sent successfully!');
         setFormData({
           fullName: '',
           company: '',
@@ -92,10 +105,20 @@ const ContactPage = () => {
             </div>
             <button type="submit" className="btn btn-primary">Send Message</button>
           </form>
-          {formStatus && <p>{formStatus}</p>} {/* 显示表单提交的结果 */}
         </div>
       </main>
       <Footer />
+      <ToastContainer position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      /> {/* 添加 ToastContainer */}
     </div>
   );
 };
