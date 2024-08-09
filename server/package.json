@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node server/app.js"
+    "client": "npm start --prefix client",
+    "server": "node server/app.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node app.js"
   },
   "engines": {
     "npm": "20.12.2",
