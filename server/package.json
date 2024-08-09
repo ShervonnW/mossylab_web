@@ -1,6 +1,7 @@
 {
   "name": "react-node-app",
   "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
     "client": "npm start --prefix client",
     "server": "node server/app.js",
@@ -9,7 +10,7 @@
   },
   "engines": {
     "npm": "20.12.2",
-  "node": "10.5.0"
+    "node": "10.5.0"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
